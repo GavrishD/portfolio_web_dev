@@ -354,12 +354,12 @@ body {
 .services-block__container {}
 .services-block__title {
     max-width: 65rem; /* 1040px */
-    margin-bottom: 9.375rem; /* 150px */
+    padding-bottom: 9.375rem; /* 150px */
     @media (max-width: 61.9988rem) {
-        margin-bottom: 4.375rem; /* 70px */
+        padding-bottom: 4.375rem; /* 70px */
     }
     @media (max-width: 47.9988rem) {
-        margin-bottom: 1.875rem; /* 30px */
+        padding-bottom: 1.875rem; /* 30px */
     }
 }
 
