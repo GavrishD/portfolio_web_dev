@@ -1,0 +1,62 @@
+.button {
+  border-radius: 4px;
+  background-color: #d8ae5e;
+  color: #f4f4f4;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+}
+
+@media (any-hover: hover) {
+  .button:hover {
+    background-color: #f0b13d;
+  }
+}
+
+.header-block {
+  text-align: center;
+}
+
+.header-block::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  margin-top: 32px;
+  background-color: #d8ae5e;
+}
+
+.header-block__title {
+  font-family: "Bodoni 72", serif;
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+.header-block__title:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.header-block__text {
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767.98px) {
+  .header-block__title {
+    font-size: 46px;
+  }
+
+  .header-block::after {
+    margin-top: 16px;
+  }
+
+  .header-block__text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .header-block__title {
+    font-size: 32px;
+  }
+}
